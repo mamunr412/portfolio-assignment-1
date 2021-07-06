@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+span{
+    color: orangered;
+}
+
+.header{
+    text-align: center;
+    background-color: rgba(7, 0, 0, 0.726);
+    padding: 40px;
+    margin-top: 0px; 
+}
+.header-right{
+    float: right;
+}
+
+.header li{
+    display: inline-block;
+  
+}
+
+.header li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    margin: 20px
+}
+.flaxiable-container{
+    display: flex;
+    padding: 20px;
+}
+.half-width{
+    
+    width:40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+    margin-left: 25%;
+    padding-left: 2%;
+}
+
+.anchor-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+}
+.about-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+   
+}
+.wait-discriptiopn{
+    font-size: 20px;
+    font-family:'Poppins';
+}
+.order-and-wait{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.border-section{
+    width: 50%;
+    margin: 10px 30px 0px 20px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.followers{
+  
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 10px ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px gray;
+}
+.followers-count{
+    padding: 10px 10px;
+    margin-left: 140px;
+    margin-right: 70px;
+}
+.food-network{
+    color: rgba(238, 226, 226, 0.87);
+    text-align: center;
+    background-color: rgb(19, 19, 27);
+    padding: 60px 10px 60px;
+    
+}
+
+.Network span{
+    color: orange;
+}
+#network-color{
+    color: gray;
+
+}
